@@ -3,6 +3,7 @@ build/
 *.userdb.txt
 *.log
 *.bak*
+*.rebuilt.gram
 installation.yaml
 user.yaml
 sync/
