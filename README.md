@@ -1,6 +1,6 @@
 # Rime Weasel Config
 
-一套面向小狼毫（Weasel）的 Rime 配置，包含雾凇拼音补丁、万象语言模型配置、分层个人词库、技术词置顶、macOS Light 风格主题和一键导入脚本。
+一套可跨平台导入的 Rime 配置，适配 Windows 小狼毫（Weasel）、macOS 鼠须管（Squirrel）和 Linux Rime（Fcitx5 / iBus），包含雾凇拼音补丁、万象语言模型配置、分层个人词库、技术词置顶和一键导入脚本。
 
 ## 包含内容
 
@@ -9,13 +9,16 @@
 - `rime_ice.dict.yaml`：主词库入口，已挂载 `cn_dicts/mydict`
 - `cn_dicts/mydict*.dict.yaml`：分层词库
 - `custom_phrase.txt`：快捷短语模板
-- `weasel.custom.yaml`：小狼毫主题与应用默认英文模式
+- `weasel.custom.yaml`：Windows 小狼毫主题与应用默认英文模式
+- `squirrel.custom.yaml`：macOS 鼠须管主题
 - `install.ps1`：一键安装到 `%APPDATA%\Rime`
+- `install.sh`：一键安装到 macOS / Linux Rime 用户目录
 - `scripts/redeploy-rime.ps1`：一键部署并检查配置是否生效
+- `scripts/redeploy-rime.sh`：macOS / Linux 重新加载与检查脚本
 
 ## 一键导入
 
-在 PowerShell 中运行：
+Windows:
 
 ```powershell
 git clone https://github.com/YOUR_NAME/rime-weasel-config.git
@@ -23,12 +26,30 @@ cd rime-weasel-config
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
-脚本会自动备份你当前的 Rime 配置到 `%APPDATA%\Rime\backup-from-github-时间戳`，然后复制本仓库配置并部署小狼毫。
+macOS / Linux:
+
+```bash
+git clone https://github.com/YOUR_NAME/rime-weasel-config.git
+cd rime-weasel-config
+chmod +x install.sh scripts/redeploy-rime.sh
+./install.sh
+```
+
+脚本会自动备份你当前的 Rime 配置，然后复制本仓库配置到对应用户目录。
+
+Windows 默认目录：`%APPDATA%\Rime`  
+macOS 默认目录：`~/Library/Rime`  
+Linux 默认目录：
+`~/.local/share/fcitx5/rime` 或 `~/.config/ibus/rime`
 
 ## 日常重新部署
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\redeploy-rime.ps1
+```
+
+```bash
+./scripts/redeploy-rime.sh
 ```
 
 检查项包括：
@@ -45,8 +66,10 @@ powershell -ExecutionPolicy Bypass -File .\scripts\redeploy-rime.ps1
 
 - `custom_phrase.txt` 中的 `YOUR_EMAIL@example.com`、`YOUR_NAME`、路径占位符
 - `cn_dicts/mydict_personal.dict.yaml` 中的 `你的名字`
-- `weasel.custom.yaml` 中的应用英文模式列表
+- `weasel.custom.yaml` / `squirrel.custom.yaml` 中的主题和前端样式
 
 ## 注意
 
-本仓库不包含 `wanxiang-lts-zh-hans.gram` 大模型文件。请先在目标机器的小狼毫用户目录放置对应 `.gram` 文件，或者修改 `rime_ice.custom.yaml` 中的 `grammar/language`。
+本仓库不包含 `wanxiang-lts-zh-hans.gram` 大模型文件。请先在目标机器的 Rime 用户目录放置对应 `.gram` 文件，或者修改 `rime_ice.custom.yaml` 中的 `grammar/language`。
+
+`git clone` 本身不会自动导入到输入法，这是出于系统安全限制。当前仓库已经做到最接近的一键导入体验：`clone` 后执行一条安装命令即可自动复制、备份并重新加载配置。

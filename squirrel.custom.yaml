@@ -1,0 +1,36 @@
+patch:
+  "style/color_scheme": purity_of_form_custom
+  "style/color_scheme_dark": purity_of_form_custom
+  "style/candidate_list_layout": linear
+  "style/text_orientation": horizontal
+  "style/inline_preedit": true
+  "style/inline_candidate": false
+  "style/font_face": "PingFang SC"
+  "style/font_point": 16
+  "style/label_font_face": "Helvetica"
+  "style/label_font_point": 12
+  "style/comment_font_face": "Helvetica"
+  "style/comment_font_point": 14
+  "style/corner_radius": 8
+  "style/hilited_corner_radius": 6
+  "style/border_height": 0
+  "style/border_width": 0
+  "style/line_spacing": 4
+  "style/spacing": 8
+  "style/candidate_format": "[label]. [candidate]"
+  "preset_color_schemes/purity_of_form_custom":
+    name: "MacOS Light"
+    author: "YOUR_NAME"
+    translucency: false
+    mutual_exclusive: false
+    color_space: srgb
+    back_color: 0xFFFFFF
+    label_color: 0x999999
+    candidate_text_color: 0x3C3C3C
+    comment_text_color: 0x999999
+    hilited_candidate_back_color: 0x8E96A3
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0xFFFFFF
+    hilited_candidate_label_color: 0xFFFFFF
+    text_color: 0x424242
+    hilited_text_color: 0x3C3C3C
