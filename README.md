@@ -25,6 +25,7 @@ chmod +x install.sh scripts/redeploy-rime.sh
 
 - `git clone` 不会自动导入输入法
 - 运行安装脚本后会自动备份当前配置、复制文件到 Rime 用户目录、并重新加载输入法
+- 仓库已内置万象语言模型分片，安装脚本会自动还原成 `wanxiang-lts-zh-hans.gram`
 - Windows 默认目录：`%APPDATA%\Rime`
 - macOS 默认目录：`~/Library/Rime`
 - Linux 默认目录：`~/.local/share/fcitx5/rime` 或 `~/.config/ibus/rime`
@@ -42,6 +43,7 @@ chmod +x install.sh scripts/redeploy-rime.sh
 - `install.sh`：一键安装到 macOS / Linux Rime 用户目录
 - `scripts/redeploy-rime.ps1`：一键部署并检查配置是否生效
 - `scripts/redeploy-rime.sh`：macOS / Linux 重新加载与检查脚本
+- `model_chunks/`：万象语言模型分片文件，安装时自动合并
 
 ## 一键导入
 
@@ -97,6 +99,6 @@ powershell -ExecutionPolicy Bypass -File .\scripts\redeploy-rime.ps1
 
 ## 注意
 
-本仓库不包含 `wanxiang-lts-zh-hans.gram` 大模型文件。请先在目标机器的 Rime 用户目录放置对应 `.gram` 文件，或者修改 `rime_ice.custom.yaml` 中的 `grammar/language`。
+本仓库已包含 `wanxiang-lts-zh-hans.gram` 的分片文件，安装脚本会自动还原模型。
 
 `git clone` 本身不会自动导入到输入法，这是出于系统安全限制。当前仓库已经做到最接近的一键导入体验：`clone` 后执行一条安装命令即可自动复制、备份并重新加载配置。

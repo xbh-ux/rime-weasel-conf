@@ -50,6 +50,30 @@ Get-ChildItem -Path (Join-Path $RepoRoot "cn_dicts") -Filter "*.dict.yaml" -File
   Copy-ConfigFile -RelativePath ("cn_dicts\" + $_.Name)
 }
 
+$chunkDir = Join-Path $RepoRoot "model_chunks"
+$chunkFiles = Get-ChildItem -Path $chunkDir -Filter "wanxiang-lts-zh-hans.gram.part*" -File -ErrorAction SilentlyContinue | Sort-Object Name
+if ($chunkFiles.Count -gt 0) {
+  $targetGram = Join-Path $RimeDir "wanxiang-lts-zh-hans.gram"
+  if (Test-Path -LiteralPath $targetGram) {
+    $backupTarget = Join-Path $BackupDir "wanxiang-lts-zh-hans.gram"
+    Copy-Item -LiteralPath $targetGram -Destination $backupTarget -Force
+  }
+
+  $out = [System.IO.File]::Create($targetGram)
+  try {
+    foreach ($chunk in $chunkFiles) {
+      $in = [System.IO.File]::OpenRead($chunk.FullName)
+      try {
+        $in.CopyTo($out)
+      } finally {
+        $in.Dispose()
+      }
+    }
+  } finally {
+    $out.Dispose()
+  }
+}
+
 Write-Host "Installed Rime config to $RimeDir"
 Write-Host "Backup saved to $BackupDir"
 

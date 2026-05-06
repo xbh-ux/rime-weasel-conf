@@ -59,6 +59,18 @@ for file in "$REPO_ROOT"/cn_dicts/*.dict.yaml; do
   copy_config_file "cn_dicts/$(basename "$file")"
 done
 
+CHUNK_DIR="$REPO_ROOT/model_chunks"
+if compgen -G "$CHUNK_DIR/wanxiang-lts-zh-hans.gram.part*" > /dev/null; then
+  TARGET_GRAM="$RIME_DIR/wanxiang-lts-zh-hans.gram"
+  if [[ -f "$TARGET_GRAM" ]]; then
+    cp "$TARGET_GRAM" "$BACKUP_DIR/wanxiang-lts-zh-hans.gram"
+  fi
+  : > "$TARGET_GRAM"
+  for chunk in "$CHUNK_DIR"/wanxiang-lts-zh-hans.gram.part*; do
+    cat "$chunk" >> "$TARGET_GRAM"
+  done
+fi
+
 echo "Installed Rime config to $RIME_DIR"
 echo "Backup saved to $BACKUP_DIR"
 
