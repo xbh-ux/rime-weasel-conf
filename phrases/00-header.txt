@@ -1,0 +1,4 @@
+# Rime table
+#@/db_name`tcustom_phrase.txt
+#@/db_type`ttabledb
+#@/tick`t0

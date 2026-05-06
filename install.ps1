@@ -8,6 +8,11 @@ $RepoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Stamp = Get-Date -Format "yyyyMMdd-HHmmss"
 $BackupDir = Join-Path $RimeDir "backup-from-github-$Stamp"
 
+$buildPhrase = Join-Path $RepoRoot "scripts\build-custom-phrase.ps1"
+if (Test-Path -LiteralPath $buildPhrase) {
+  & $buildPhrase -RepoRoot $RepoRoot
+}
+
 function Copy-ConfigFile {
   param(
     [string]$RelativePath

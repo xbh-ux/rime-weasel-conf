@@ -4,6 +4,10 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 OS_NAME="$(uname -s)"
 
+if [[ -x "$REPO_ROOT/scripts/build-custom-phrase.sh" ]]; then
+  "$REPO_ROOT/scripts/build-custom-phrase.sh"
+fi
+
 case "$OS_NAME" in
   Darwin)
     RIME_DIR="${RIME_DIR:-$HOME/Library/Rime}"

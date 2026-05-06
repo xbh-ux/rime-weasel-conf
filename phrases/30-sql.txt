@@ -1,0 +1,5 @@
+SELECT * FROM  LIMIT 100;	zzsql	0
+SELECT NOW();	zznow	0
+SHOW VARIABLES LIKE '';	zzvar	0
+SHOW CREATE TABLE ;	zzsct	0
+DESC ;	zzdesc	0

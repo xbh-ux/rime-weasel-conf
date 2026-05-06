@@ -45,7 +45,9 @@ chmod +x install.sh scripts/redeploy-rime.sh
 - `scripts/redeploy-rime.sh`：macOS / Linux 重新加载与检查脚本
 - `scripts/backup-rime.*`：备份当前 Rime 配置与用户学习数据
 - `scripts/restore-rime.*`：从备份恢复 Rime 配置
-- `scripts/switch-theme.*`：切换输入法主题模式
+- `scripts/switch-theme.*`：切换输入法主题模式并自动重新部署
+- `scripts/build-custom-phrase.*`：从 `phrases/` 目录生成 `custom_phrase.txt`
+- `phrases/`：按场景分层维护快捷短语源文件
 - `model_chunks/`：万象语言模型分片文件（单片约 45MB），安装时自动合并
 
 ## 一键导入
@@ -92,6 +94,7 @@ Windows:
 powershell -ExecutionPolicy Bypass -File .\scripts\backup-rime.ps1
 powershell -ExecutionPolicy Bypass -File .\scripts\switch-theme.ps1 -Mode dark
 powershell -ExecutionPolicy Bypass -File .\scripts\switch-theme.ps1 -Mode light
+powershell -ExecutionPolicy Bypass -File .\scripts\build-custom-phrase.ps1
 ```
 
 macOS / Linux:
@@ -100,6 +103,7 @@ macOS / Linux:
 ./scripts/backup-rime.sh
 ./scripts/switch-theme.sh dark
 ./scripts/switch-theme.sh light
+./scripts/build-custom-phrase.sh
 ```
 
 检查项包括：

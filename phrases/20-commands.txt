@@ -1,0 +1,48 @@
+需要重新部署后生效。	zzcd	0
+console.log()	zzclog	0
+curl -H "Content-Type: application/json" -X POST	zzcurlp	0
+docker compose down	zzdcd	0
+docker compose logs -f	zzdcl	0
+docker compose up -d	zzdcu	0
+D:\path\to\devops	zzdevops	0
+git add .	zzga	0
+git checkout -b	zzgcb	0
+git commit -m ""	zzgcm	0
+这个我继续跟进。	zzgj	0
+go test ./...	zzgot	0
+git pull --rebase	zzgpl	0
+git push origin HEAD	zzgps	0
+git status	zzgs	0
+kubectl describe pod	zzkdp	0
+kubectl get nodes	zzkgn	0
+kubectl get pods -A	zzkgp	0
+kubectl logs -f	zzklf	0
+YOUR_NAME	zzname	0
+npm run build	zznrb	0
+npm run dev	zznrd	0
+pnpm build	zzpb	0
+pnpm dev	zzpd	0
+kubectl get ns	zzkgns	0
+kubectl get pod -n 	zzkgpn	0
+kubectl describe node 	zzkdn	0
+kubectl logs -f deployment/	zzkld	0
+kubectl delete pod  -n 	zzkdelp	0
+kubectl rollout undo deployment/	zzkru	0
+kubectl get pvc -A	zzkgpvc	0
+kubectl get pv	zzkgpv	0
+docker images	zzdimg	0
+docker inspect 	zzdins	0
+docker compose config	zzdccfg	0
+docker compose exec  /bin/sh	zzdcex	0
+git fetch --all --prune	zzgfa	0
+git reset --soft HEAD~1	zzgrsoft	0
+git cherry-pick 	zzgcp	0
+git revert 	zzgrv	0
+pnpm preview	zzppv	0
+npm run preview	zznrp	0
+go env GOPATH	zzgopath	0
+go test ./... -run 	zzgotr	0
+go test ./... -v	zzgotv	0
+curl -X GET 	zzcurlg	0
+curl -X DELETE 	zzcurld	0
+curl -X PATCH 	zzcurlpatch	0

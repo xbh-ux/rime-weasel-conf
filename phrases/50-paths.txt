@@ -1,0 +1,6 @@
+%USERPROFILE%	zzhome	0
+YOUR_EMAIL@example.com	zzmail	0
+%APPDATA%\Rime	zzrime	0
+D:\path\to\workspace	zzvscode	0
+C:\Program Files\Rime\weasel-0.17.4	zzweasel	0
+https://github.com/xbh-ux/rime-weasel-conf	zzrimegit	0
