@@ -2,6 +2,33 @@
 
 一套可跨平台导入的 Rime 配置，适配 Windows 小狼毫（Weasel）、macOS 鼠须管（Squirrel）和 Linux Rime（Fcitx5 / iBus），包含雾凇拼音补丁、万象语言模型配置、分层个人词库、技术词置顶和一键导入脚本。
 
+## 快速开始
+
+Windows:
+
+```powershell
+git clone https://github.com/xbh-ux/rime-weasel-conf.git
+cd rime-weasel-conf
+powershell -ExecutionPolicy Bypass -File .\install.ps1
+```
+
+macOS / Linux:
+
+```bash
+git clone https://github.com/xbh-ux/rime-weasel-conf.git
+cd rime-weasel-conf
+chmod +x install.sh scripts/redeploy-rime.sh
+./install.sh
+```
+
+说明：
+
+- `git clone` 不会自动导入输入法
+- 运行安装脚本后会自动备份当前配置、复制文件到 Rime 用户目录、并重新加载输入法
+- Windows 默认目录：`%APPDATA%\Rime`
+- macOS 默认目录：`~/Library/Rime`
+- Linux 默认目录：`~/.local/share/fcitx5/rime` 或 `~/.config/ibus/rime`
+
 ## 包含内容
 
 - `default.custom.yaml`：默认方案列表与菜单配置
@@ -21,16 +48,16 @@
 Windows:
 
 ```powershell
-git clone https://github.com/YOUR_NAME/rime-weasel-config.git
-cd rime-weasel-config
+git clone https://github.com/xbh-ux/rime-weasel-conf.git
+cd rime-weasel-conf
 powershell -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
 macOS / Linux:
 
 ```bash
-git clone https://github.com/YOUR_NAME/rime-weasel-config.git
-cd rime-weasel-config
+git clone https://github.com/xbh-ux/rime-weasel-conf.git
+cd rime-weasel-conf
 chmod +x install.sh scripts/redeploy-rime.sh
 ./install.sh
 ```
