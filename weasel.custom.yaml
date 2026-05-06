@@ -5,7 +5,7 @@ customization:
   modified_time: "Sat Nov  8 14:17:04 2025"
   rime_version: 1.13.1
 patch:
-  "style/color_scheme": macos_light
+  "style/color_scheme": macos_dark
   "style/horizontal": true
   "style/inline_preedit": true
   "style/font_face": "Segoe UI Variable Text, Segoe UI, Microsoft YaHei UI, Microsoft YaHei"
@@ -47,6 +47,23 @@ patch:
     label_color: 0x999999
     text_color: 0x424242
     shadow_color: 0x00000020
+  "preset_color_schemes/macos_dark":
+    name: "MacOS Dark"
+    author: "Third-party Rime theme, adapted for YOUR_NAME"
+    color_format: rgba
+    back_color: 0x1F232A
+    border_color: 0x1F232A
+    candidate_text_color: 0xE8EAED
+    comment_text_color: 0xA7ADB5
+    hilited_candidate_back_color: 0x586272
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0xFFFFFF
+    hilited_candidate_label_color: 0xFFFFFF
+    hilited_label_color: 0xFFFFFF
+    hilited_text_color: 0xD7DBE0
+    label_color: 0xA7ADB5
+    text_color: 0xD7DBE0
+    shadow_color: 0x00000040
   "app_options/code.exe/ascii_mode": true
   "app_options/cursor.exe/ascii_mode": true
   "app_options/codium.exe/ascii_mode": true

@@ -40,7 +40,7 @@ $checks = [ordered]@{
   "user learning" = $schemaText.Contains("enable_user_dict: true") -and $schemaText.Contains("enable_encoder: true")
   "commit history learning" = $schemaText.Contains("encode_commit_history: true")
   "personal dict entry" = (Get-Content -LiteralPath (Join-Path $RimeDir "rime_ice.dict.yaml") -Raw).Contains("cn_dicts/mydict")
-  "macos theme" = $weaselText.Contains("color_scheme: macos_light")
+  "macos theme" = $weaselText.Contains("color_scheme: macos_dark") -or $weaselText.Contains("color_scheme: macos_light")
 }
 
 $failed = @()

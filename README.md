@@ -37,7 +37,7 @@ chmod +x install.sh scripts/redeploy-rime.sh
 - `rime_ice.dict.yaml`：主词库入口，已挂载 `cn_dicts/mydict`
 - `cn_dicts/mydict*.dict.yaml`：分层词库
 - `custom_phrase.txt`：快捷短语模板
-- `weasel.custom.yaml`：Windows 小狼毫主题与应用默认英文模式
+- `weasel.custom.yaml`：Windows 小狼毫主题与应用默认英文模式（当前默认夜间模式）
 - `squirrel.custom.yaml`：macOS 鼠须管主题
 - `install.ps1`：一键安装到 `%APPDATA%\Rime`
 - `install.sh`：一键安装到 macOS / Linux Rime 用户目录
