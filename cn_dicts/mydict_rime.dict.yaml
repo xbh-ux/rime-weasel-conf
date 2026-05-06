@@ -1,0 +1,36 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: mydict_rime
+version: "2026-05-06"
+sort: by_weight
+...
+
+小狼毫	xiao lang hao	260000
+雾凇拼音	wu song pin yin	240000
+个人词库	ge ren ci ku	220000
+自定义词库	zi ding yi ci ku	220000
+重新部署	chong xin bu shu	220000
+万象语言模型	wan xiang yu yan mo xing	260000
+语言模型	yu yan mo xing	240000
+上下文建议	shang xia wen jian yi	230000
+候选排序	hou xuan pai xu	230000
+候选权重	hou xuan quan zhong	220000
+候选置顶	hou xuan zhi ding	220000
+技术词置顶	ji shu ci zhi ding	220000
+用户词典	yong hu ci dian	220000
+用户词频	yong hu ci pin	220000
+用户学习	yong hu xue xi	220000
+自动调频	zi dong tiao pin	220000
+动态调频	dong tai tiao pin	220000
+编码学习	bian ma xue xi	210000
+提交历史	ti jiao li shi	210000
+造词能力	zao ci neng li	210000
+造句能力	zao ju neng li	210000
+长词优先	chang ci you xian	210000
+英文降权	ying wen jiang quan	210000
+候选干扰	hou xuan gan rao	200000
+自定义短语	zi ding yi duan yu	220000
+快捷短语	kuai jie duan yu	210000
+个人短语	ge ren duan yu	210000

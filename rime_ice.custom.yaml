@@ -1,0 +1,367 @@
+patch:
+  "grammar/language": wanxiang-lts-zh-hans
+  "grammar/collocation_max_length": 7
+  "grammar/collocation_min_length": 2
+  "translator/contextual_suggestions": true
+  "translator/contextual_suggestions_depth": 8
+  "translator/max_homophones": 9
+  "translator/max_homographs": 9
+  "translator/initial_quality": 1.5
+  "translator/enable_sentence": true
+  "translator/enable_user_dict": true
+  "translator/enable_encoder": true
+  "translator/encode_commit_history": true
+  "translator/max_phrase_length": 7
+  "translator/enable_completion": true
+  "translator/enable_word_completion": true
+  "melt_eng/initial_quality": 0.65
+  "cn_en/initial_quality": 0.55
+  "custom_phrase/db_class": tabledb
+  "long_word_filter/count": 3
+  "long_word_filter/idx": 4
+  "reduce_english_filter/mode": custom
+  "reduce_english_filter/idx": 2
+  "reduce_english_filter/words":
+    - aid
+    - ann
+    - bail
+    - bait
+    - bam
+    - band
+    - bans
+    - bat
+    - bay
+    - bend
+    - bent
+    - benz
+    - bib
+    - bid
+    - bien
+    - biz
+    - boc
+    - bop
+    - bos
+    - bud
+    - buf
+    - bach
+    - bench
+    - bush
+    - cab
+    - cad
+    - cain
+    - cam
+    - cans
+    - cap
+    - cef
+    - chad
+    - chan
+    - chap
+    - chef
+    - cher
+    - chew
+    - chic
+    - chin
+    - chip
+    - chit
+    - coup
+    - cum
+    - cunt
+    - cur
+    - couch
+    - dab
+    - dag
+    - dal
+    - dam
+    - dent
+    - dew
+    - dial
+    - diet
+    - dim
+    - din
+    - dip
+    - dis
+    - dit
+    - doug
+    - dub
+    - dug
+    - dunn
+    - don
+    - fab
+    - fax
+    - fob
+    - fog
+    - foul
+    - fur
+    - gag
+    - gail
+    - gain
+    - gal
+    - gam
+    - gaol
+    - ged
+    - gel
+    - ger
+    - guam
+    - gus
+    - gut
+    - hail
+    - ham
+    - hank
+    - hans
+    - hat
+    - hay
+    - heil
+    - heir
+    - hem
+    - hep
+    - hud
+    - hum
+    - hung
+    - hunk
+    - hut
+    - hush
+    - jim
+    - jug
+    - kat
+    - lab
+    - lad
+    - lag
+    - laid
+    - lam
+    - laos
+    - lap
+    - lat
+    - lax
+    - lay
+    - led
+    - leg
+    - lex
+    - liam
+    - lib
+    - lid
+    - lied
+    - lien
+    - lies
+    - linn
+    - lip
+    - lit
+    - liz
+    - lob
+    - lug
+    - lund
+    - lung
+    - lux
+    - lash
+    - loch
+    - lush
+    - mag
+    - maid
+    - mann
+    - mar
+    - mat
+    - med
+    - mel
+    - mend
+    - mens
+    - ment
+    - mil
+    - mins
+    - mint
+    - mob
+    - moc
+    - mop
+    - mos
+    - mot
+    - mud
+    - mug
+    - mum
+    - mesh
+    - nap
+    - nat
+    - nay
+    - neil
+    - nib
+    - nip
+    - noun
+    - nous
+    - nun
+    - nut
+    - nail
+    - nash
+    - pac
+    - paid
+    - pail
+    - pain
+    - pair
+    - pak
+    - pal
+    - pam
+    - pans
+    - pant
+    - pap
+    - par
+    - pat
+    - paw
+    - pax
+    - pens
+    - pic
+    - pier
+    - pies
+    - pins
+    - pint
+    - pit
+    - pix
+    - pod
+    - pop
+    - pos
+    - pot
+    - pour
+    - pow
+    - pub
+    - pinch
+    - pouch
+    - rand
+    - rant
+    - rent
+    - rep
+    - res
+    - ret
+    - rex
+    - rib
+    - rid
+    - rig
+    - rim
+    - rub
+    - rug
+    - rum
+    - runc
+    - runs
+    - ranch
+    - sac
+    - sail
+    - sal
+    - sam
+    - sans
+    - sap
+    - saw
+    - sax
+    - sew
+    - sham
+    - shaw
+    - shin
+    - sig
+    - sin
+    - sip
+    - sis
+    - suit
+    - sung
+    - suns
+    - sup
+    - sur
+    - sus
+    - tad
+    - tail
+    - taj
+    - tar
+    - tax
+    - tec
+    - ted
+    - tel
+    - ter
+    - tex
+    - tic
+    - tied
+    - tier
+    - ties
+    - tim
+    - tin
+    - tit
+    - tour
+    - tout
+    - tum
+    - wag
+    - wand
+    - womens
+    - wap
+    - wax
+    - weir
+    - won
+    - went
+    - yan
+    - yen
+    - zach
+    - api
+    - auth
+    - cli
+    - cron
+    - env
+    - helm
+    - jwt
+    - json
+    - pod
+    - pods
+    - pvc
+    - pv
+    - sql
+    - ssh
+    - tls
+    - yaml
+  "pin_cand_filter":
+    - "ban ben\t版本"
+    - "pei zhi\t配置"
+    - "pei zhi wen jian\t配置文件"
+    - "bu shu\t部署"
+    - "jiao ben\t脚本"
+    - "fu wu\t服务"
+    - "jie kou\t接口"
+    - "ri zhi\t日志"
+    - "ri zhi wen jian\t日志文件"
+    - "gou jian\t构建"
+    - "ce shi\t测试"
+    - "fa bu\t发布"
+    - "rong qi\t容器"
+    - "ji qun\t集群"
+    - "hui gun\t回滚"
+    - "huan jing\t环境"
+    - "yi lai\t依赖"
+    - "jin cheng\t进程"
+    - "duan kou\t端口"
+    - "xie yi\t协议"
+    - "lian jie\t连接 链接"
+    - "suan fa\t算法"
+    - "suan fa fu wu\t算法服务"
+    - "shu ru fa\t输入法"
+    - "hou xuan\t候选"
+    - "hou xuan ci\t候选词"
+    - "hou xuan kuang\t候选框"
+    - "ci ku\t词库"
+    - "yu yan mo xing\t语言模型"
+    - "wan xiang\t万象"
+    - "wan xiang yu yan mo xing\t万象语言模型"
+    - "yong hu xue xi\t用户学习"
+    - "ji shu ci\t技术词"
+    - "zhi ding\t置顶"
+    - "xiao lang hao\t小狼毫"
+    - "wu song pin yin\t雾凇拼音"
+    - "your name\t你的名字"
+    - "kafka kong zhi tai\tKafka控制台"
+    - "mysql kong zhi tai\tMySQL控制台"
+    - "devops ping tai\tDevOps平台"
+    - "k8s ji qun\tK8s集群"
+    - "rong qi jing xiang\t容器镜像"
+    - "jing xiang cang ku\t镜像仓库"
+    - "ming ming kong jian\t命名空间"
+    - "gong zuo fu zai\t工作负载"
+    - "xiao fei zhe zu\t消费者组"
+    - "xiao fei yan chi\t消费延迟"
+    - "xiao xi ji ya\t消息积压"
+    - "zhu ti fen qu\t主题分区"
+    - "man cha xun\t慢查询"
+    - "zhi xing ji hua\t执行计划"
+    - "suo yin you hua\t索引优化"
+    - "gao jing gui ze\t告警规则"
+    - "lian lu zhui zong\t链路追踪"
+    - "gen yin fen xi\t根因分析"
+    - "wen ti ding wei\t问题定位"
+    - "yan zheng tong guo\t验证通过"
+

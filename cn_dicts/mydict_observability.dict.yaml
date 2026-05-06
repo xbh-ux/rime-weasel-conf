@@ -1,0 +1,43 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: mydict_observability
+version: "2026-05-06"
+sort: by_weight
+...
+
+Prometheus	prometheus	240000
+Grafana	grafana	240000
+Alertmanager	alertmanager	220000
+Loki	loki	220000
+Tempo	tempo	210000
+Jaeger	jaeger	210000
+OpenTelemetry	opentelemetry	210000
+可观测性	ke guan ce xing	220000
+指标采集	zhi biao cai ji	220000
+监控面板	jian kong mian ban	220000
+告警规则	gao jing gui ze	220000
+告警通知	gao jing tong zhi	210000
+告警静默	gao jing jing mo	210000
+告警抑制	gao jing yi zhi	210000
+告警收敛	gao jing shou lian	210000
+日志采集	ri zhi cai ji	220000
+日志检索	ri zhi jian suo	220000
+日志聚合	ri zhi ju he	210000
+链路追踪	lian lu zhui zong	220000
+TraceID	traceid	210000
+请求链路	qing qiu lian lu	210000
+根因分析	gen yin fen xi	220000
+问题定位	wen ti ding wei	220000
+排障记录	pai zhang ji lu	220000
+复现路径	fu xian lu jing	210000
+修复方案	xiu fu fang an	210000
+验证通过	yan zheng tong guo	210000
+回归测试	hui gui ce shi	210000
+联调环境	lian diao huan jing	210000
+测试环境	ce shi huan jing	210000
+预发环境	yu fa huan jing	210000
+生产环境	sheng chan huan jing	210000
+本地环境	ben di huan jing	210000
+沙箱环境	sha xiang huan jing	200000

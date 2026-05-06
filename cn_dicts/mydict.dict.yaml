@@ -1,0 +1,15 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: mydict
+version: "2026-05-06"
+import_tables:
+  - cn_dicts/mydict_personal
+  - cn_dicts/mydict_devops
+  - cn_dicts/mydict_k8s
+  - cn_dicts/mydict_kafka
+  - cn_dicts/mydict_mysql
+  - cn_dicts/mydict_observability
+  - cn_dicts/mydict_rime
+...

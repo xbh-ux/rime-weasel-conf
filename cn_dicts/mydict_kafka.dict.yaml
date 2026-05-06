@@ -1,0 +1,57 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: mydict_kafka
+version: "2026-05-06"
+sort: by_weight
+...
+
+Kafka	kafka	260000
+Kafka集群	kafka ji qun	240000
+Kafka控制台	kafka kong zhi tai	240000
+Kafka主题	kafka zhu ti	230000
+消息队列	xiao xi dui lie	230000
+消费者组	xiao fei zhe zu	230000
+消费位点	xiao fei wei dian	220000
+消费延迟	xiao fei yan chi	220000
+消息积压	xiao xi ji ya	220000
+消息堆积	xiao xi dui ji	220000
+消息丢失	xiao xi diu shi	210000
+消息重复	xiao xi chong fu	210000
+消息幂等	xiao xi mi deng	210000
+顺序消息	shun xu xiao xi	210000
+死信队列	si xin dui lie	210000
+重试队列	chong shi dui lie	210000
+延迟队列	yan chi dui lie	210000
+主题分区	zhu ti fen qu	210000
+分区副本	fen qu fu ben	210000
+再均衡	zai jun heng	210000
+偏移量	pian yi liang	210000
+高水位	gao shui wei	200000
+Broker节点	broker jie dian	210000
+Controller节点	controller jie dian	210000
+ISR副本	isr fu ben	210000
+ZooKeeper	zookeeper	210000
+KRaft模式	kraft mo shi	210000
+主题管理	zhu ti guan li	230000
+消息浏览	xiao xi liu lan	230000
+消息查询	xiao xi cha xun	220000
+消息发送	xiao xi fa song	220000
+消费组管理	xiao fei zu guan li	220000
+消费者组管理	xiao fei zhe zu guan li	220000
+集群管理	ji qun guan li	220000
+Broker管理	broker guan li	220000
+审计日志	shen ji ri zhi	220000
+发现中心	fa xian zhong xin	210000
+分区数	fen qu shu	210000
+副本因子	fu ben yin zi	210000
+最小同步副本	zui xiao tong bu fu ben	210000
+保留时间	bao liu shi jian	210000
+清理策略	qing li ce lve	210000
+压缩策略	ya suo ce lve	210000
+消息键	xiao xi jian	200000
+消息头	xiao xi tou	200000
+消息体	xiao xi ti	200000
+提交偏移量	ti jiao pian yi liang	210000
+重置偏移量	chong zhi pian yi liang	210000

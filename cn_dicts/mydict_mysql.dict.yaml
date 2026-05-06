@@ -1,0 +1,55 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: mydict_mysql
+version: "2026-05-06"
+sort: by_weight
+...
+
+MySQL	mysql	250000
+MySQL控制台	mysql kong zhi tai	240000
+PostgreSQL	postgresql	230000
+Redis	redis	240000
+MongoDB	mongodb	220000
+Elasticsearch	elasticsearch	220000
+ClickHouse	clickhouse	220000
+TiDB	tidb	220000
+数据库连接	shu ju ku lian jie	220000
+连接池	lian jie chi	220000
+主从复制	zhu cong fu zhi	220000
+读写分离	du xie fen li	220000
+分库分表	fen ku fen biao	220000
+索引优化	suo yin you hua	220000
+执行计划	zhi xing ji hua	220000
+事务隔离	shi wu ge li	210000
+死锁分析	si suo fen xi	210000
+慢查询	man cha xun	220000
+慢查询日志	man cha xun ri zhi	220000
+慢日志	man ri zhi	210000
+缓存穿透	huan cun chuan tou	210000
+缓存击穿	huan cun ji chuan	210000
+缓存雪崩	huan cun xue beng	210000
+缓存预热	huan cun yu re	210000
+热点Key	re dian key	210000
+大Key	da key	210000
+过期策略	guo qi ce lve	200000
+数据库管理	shu ju ku guan li	230000
+连接管理	lian jie guan li	230000
+数据管理	shu ju guan li	220000
+备份管理	bei fen guan li	220000
+权限审计	quan xian shen ji	220000
+结构对比	jie gou dui bi	220000
+表结构	biao jie gou	220000
+字段类型	zi duan lei xing	210000
+主键索引	zhu jian suo yin	210000
+唯一索引	wei yi suo yin	210000
+普通索引	pu tong suo yin	210000
+外键约束	wai jian yue shu	210000
+自动递增	zi dong di zeng	210000
+数据导入	shu ju dao ru	210000
+数据导出	shu ju dao chu	210000
+定时备份	ding shi bei fen	210000
+恢复备份	hui fu bei fen	210000
+查询结果	cha xun jie guo	210000
+结果集	jie guo ji	210000

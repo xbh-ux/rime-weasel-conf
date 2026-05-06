@@ -1,0 +1,9 @@
+build/
+*.userdb/
+*.userdb.txt
+*.log
+*.bak*
+*.gram
+installation.yaml
+user.yaml
+sync/

@@ -1,0 +1,107 @@
+# Rime table
+#@/db_name	custom_phrase.txt
+#@/db_type	tabledb
+#@/tick	0
+Amazon	amazon	0
+API	api	0
+Bash	bash	0
+code	code	0
+DevOps	devops	0
+Docker	docker	0
+domain	domain	0
+Dota	dota	0
+Git	git	0
+GitHub	github	0
+go	go	0
+Go程	gocheng	0
+Golang	golang	0
+gone	gone	0
+goto	goto	0
+gRPC	grpc	0
+噷	hm	0
+HTTP	http	0
+HTTPS	https	0
+Hugo	hugo	0
+一	i	4
+亦	i	1
+以	i	3
+已	i	2
+一个	ig	0
+JavaScript	javascript	0
+JSON	json	0
+JWT	jwt	0
+kubectl	kubectl	0
+Kubernetes	kubernetes	0
+Linux	linux	0
+呒	m	0
+呣	m	0
+main	main	0
+NASA	nasa	0
+Nginx	nginx	0
+Node.js	nodejs	0
+npm	npm	0
+OAuth	oauth	0
+pnpm	pnpm	0
+PowerShell	powershell	0
+React	react	0
+Redis	redis	0
+是一个	sig	0
+SOHO	soho	0
+SQL	sql	0
+SSH	ssh	0
+TODO	todo	0
+TypeScript	typescript	0
+又	u	2
+有	u	3
+由	u	1
+有个	ug	0
+有一个	uig	0
+有没有	umeiu	0
+有没有	umu	0
+UTF-8	utf8	0
+又有	uu	0
+又又又	uuu	0
+又双叒叕	uuuu	0
+有一个	uyig	0
+有一个	uyige	0
+Vite	vite	0
+Vue	vue	0
+WebSocket	websocket	0
+YAML	yaml	0
+Authorization: Bearer	zzbear	0
+需要重新部署后生效。	zzcd	0
+console.log()	zzclog	0
+curl -H "Content-Type: application/json" -X POST	zzcurlp	0
+docker compose down	zzdcd	0
+docker compose logs -f	zzdcl	0
+docker compose up -d	zzdcu	0
+D:\path\to\devops	zzdevops	0
+fmt.Println()	zzfmt	0
+已复现，正在排查。	zzfx	0
+git add .	zzga	0
+git checkout -b	zzgcb	0
+git commit -m ""	zzgcm	0
+这个我继续跟进。	zzgj	0
+go test ./...	zzgot	0
+git pull --rebase	zzgpl	0
+git push origin HEAD	zzgps	0
+git status	zzgs	0
+%USERPROFILE%	zzhome	0
+已处理，麻烦验证。	zzhy	0
+{"code":0,"message":"ok","data":{}}	zzjson	0
+kubectl describe pod	zzkdp	0
+kubectl get nodes	zzkgn	0
+kubectl get pods -A	zzkgp	0
+kubectl logs -f	zzklf	0
+YOUR_EMAIL@example.com	zzmail	0
+YOUR_NAME	zzname	0
+npm run build	zznrb	0
+npm run dev	zznrd	0
+pnpm build	zzpb	0
+pnpm dev	zzpd	0
+%APPDATA%\Rime	zzrime	0
+我先看下日志和配置。	zzrz	0
+SELECT * FROM  LIMIT 100;	zzsql	0
+D:\path\to\workspace	zzvscode	0
+C:\Program Files\Rime\weasel-0.17.4	zzweasel	0
+

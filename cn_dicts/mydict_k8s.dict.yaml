@@ -1,0 +1,72 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: mydict_k8s
+version: "2026-05-06"
+sort: by_weight
+...
+
+Kubernetes	kubernetes	260000
+K8s	k8s	260000
+K8s集群	k8s ji qun	240000
+Kubernetes集群	kubernetes ji qun	240000
+kubectl	kubectl	240000
+Docker	docker	240000
+Docker Compose	docker compose	230000
+containerd	containerd	220000
+容器镜像	rong qi jing xiang	230000
+镜像仓库	jing xiang cang ku	230000
+镜像拉取	jing xiang la qu	220000
+镜像构建	jing xiang gou jian	220000
+镜像标签	jing xiang biao qian	220000
+命名空间	ming ming kong jian	220000
+工作负载	gong zuo fu zai	220000
+副本数	fu ben shu	210000
+滚动更新	gun dong geng xin	210000
+健康检查	jian kang jian cha	210000
+存活探针	cun huo tan zhen	210000
+就绪探针	jiu xu tan zhen	210000
+启动探针	qi dong tan zhen	210000
+资源配额	zi yuan pei e	205000
+资源限制	zi yuan xian zhi	205000
+节点亲和性	jie dian qin he xing	205000
+污点容忍	wu dian rong ren	205000
+调度策略	diao du ce lve	205000
+服务暴露	fu wu bao lu	205000
+端口映射	duan kou ying she	205000
+端口转发	duan kou zhuan fa	205000
+集群内网	ji qun nei wang	200000
+集群外网	ji qun wai wang	200000
+服务网格	fu wu wang ge	200000
+证书续期	zheng shu xu qi	200000
+证书过期	zheng shu guo qi	200000
+Ingress规则	ingress gui ze	220000
+Ingress配置	ingress pei zhi	220000
+Nginx Ingress	nginx ingress	220000
+Helm Chart	helm chart	220000
+Helm values	helm values	220000
+ConfigMap	configmap	220000
+Secret	secret	220000
+ServiceAccount	serviceaccount	210000
+ClusterRole	clusterrole	210000
+PersistentVolume	persistentvolume	210000
+PersistentVolumeClaim	persistentvolumeclaim	210000
+存储卷	cun chu juan	200000
+挂载路径	gua zai lu jing	200000
+ChaosMesh	chaosmesh	220000
+混沌实验	hun dun shi yan	220000
+网络延迟	wang luo yan chi	210000
+网络丢包	wang luo diu bao	210000
+网络分区	wang luo fen qu	210000
+带宽限制	dai kuan xian zhi	210000
+Pod故障	pod gu zhang	210000
+Pod删除	pod shan chu	210000
+IO延迟	io yan chi	210000
+IO错误	io cuo wu	210000
+压力测试	ya li ce shi	210000
+压测报告	ya ce bao gao	210000
+性能瓶颈	xing neng ping jing	210000
+接口超时	jie kou chao shi	210000
+请求超时	qing qiu chao shi	210000
+重试机制	chong shi ji zhi	210000

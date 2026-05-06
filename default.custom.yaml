@@ -1,0 +1,18 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Sat Nov  8 14:16:36 2025"
+  rime_version: 1.13.1
+patch:
+  schema_list:
+    - {schema: rime_ice}
+  "menu/page_size": 9
+  "switcher/hotkeys":
+    - F4
+    - Control+Shift+grave
+  "switcher/save_options":
+    - ascii_punct
+    - traditionalization
+    - emoji
+  "ascii_composer/switch_key/Shift_R": inline_ascii
