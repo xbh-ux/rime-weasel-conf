@@ -43,6 +43,9 @@ chmod +x install.sh scripts/redeploy-rime.sh
 - `install.sh`：一键安装到 macOS / Linux Rime 用户目录
 - `scripts/redeploy-rime.ps1`：一键部署并检查配置是否生效
 - `scripts/redeploy-rime.sh`：macOS / Linux 重新加载与检查脚本
+- `scripts/backup-rime.*`：备份当前 Rime 配置与用户学习数据
+- `scripts/restore-rime.*`：从备份恢复 Rime 配置
+- `scripts/switch-theme.*`：切换输入法主题模式
 - `model_chunks/`：万象语言模型分片文件（单片约 45MB），安装时自动合并
 
 ## 一键导入
@@ -79,6 +82,24 @@ powershell -ExecutionPolicy Bypass -File .\scripts\redeploy-rime.ps1
 
 ```bash
 ./scripts/redeploy-rime.sh
+```
+
+## 维护脚本
+
+Windows:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\backup-rime.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\switch-theme.ps1 -Mode dark
+powershell -ExecutionPolicy Bypass -File .\scripts\switch-theme.ps1 -Mode light
+```
+
+macOS / Linux:
+
+```bash
+./scripts/backup-rime.sh
+./scripts/switch-theme.sh dark
+./scripts/switch-theme.sh light
 ```
 
 检查项包括：

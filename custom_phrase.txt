@@ -104,4 +104,37 @@ pnpm dev	zzpd	0
 SELECT * FROM  LIMIT 100;	zzsql	0
 D:\path\to\workspace	zzvscode	0
 C:\Program Files\Rime\weasel-0.17.4	zzweasel	0
+https://github.com/xbh-ux/rime-weasel-conf	zzrimegit	0
+kubectl get ns	zzkgns	0
+kubectl get pod -n 	zzkgpn	0
+kubectl describe node 	zzkdn	0
+kubectl logs -f deployment/	zzkld	0
+kubectl delete pod  -n 	zzkdelp	0
+kubectl rollout undo deployment/	zzkru	0
+kubectl get pvc -A	zzkgpvc	0
+kubectl get pv	zzkgpv	0
+docker images	zzdimg	0
+docker inspect 	zzdins	0
+docker compose config	zzdccfg	0
+docker compose exec  /bin/sh	zzdcex	0
+git fetch --all --prune	zzgfa	0
+git reset --soft HEAD~1	zzgrsoft	0
+git cherry-pick 	zzgcp	0
+git revert 	zzgrv	0
+pnpm preview	zzppv	0
+npm run preview	zznrp	0
+go env GOPATH	zzgopath	0
+go test ./... -run 	zzgotr	0
+go test ./... -v	zzgotv	0
+SELECT NOW();	zznow	0
+SHOW VARIABLES LIKE '';	zzvar	0
+SHOW CREATE TABLE ;	zzsct	0
+DESC ;	zzdesc	0
+curl -X GET 	zzcurlg	0
+curl -X DELETE 	zzcurld	0
+curl -X PATCH 	zzcurlpatch	0
+我这边先做一次完整回归。	zzhgui	0
+这个改动已经同步到仓库。	zzsync	0
+我先备份当前输入法配置。	zzbk	0
+我先切换一下主题再验证。	zztheme	0
 
