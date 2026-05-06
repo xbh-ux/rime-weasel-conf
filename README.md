@@ -121,6 +121,7 @@ macOS / Linux:
 - `custom_phrase.txt` 中的 `YOUR_EMAIL@example.com`、`YOUR_NAME`、路径占位符
 - `cn_dicts/mydict_personal.dict.yaml` 中的 `你的名字`
 - `weasel.custom.yaml` / `squirrel.custom.yaml` 中的主题和前端样式
+- 如果想让 Windows 小狼毫候选框字体更接近 macOS，请先在系统中安装 `SF Pro Text` 或 `PingFang SC`
 
 ## 注意
 

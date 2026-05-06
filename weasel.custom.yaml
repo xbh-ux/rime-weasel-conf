@@ -8,12 +8,12 @@ patch:
   "style/color_scheme": macos_dark
   "style/horizontal": true
   "style/inline_preedit": true
-  "style/font_face": "Segoe UI Variable Text, Segoe UI, Microsoft YaHei UI, Microsoft YaHei"
-  "style/label_font_face": "Segoe UI Variable Text, Segoe UI"
-  "style/comment_font_face": "Segoe UI Variable Text, Segoe UI, Microsoft YaHei UI"
-  "style/font_point": 13
-  "style/label_font_point": 13
-  "style/comment_font_point": 11
+  "style/font_face": "SF Pro Text, PingFang SC, Helvetica Neue, Segoe UI Variable Text, Segoe UI, Microsoft YaHei UI, Microsoft YaHei"
+  "style/label_font_face": "SF Pro Text, Helvetica Neue, Segoe UI Variable Text, Segoe UI"
+  "style/comment_font_face": "SF Pro Text, PingFang SC, Helvetica Neue, Segoe UI Variable Text, Segoe UI, Microsoft YaHei UI"
+  "style/font_point": 14
+  "style/label_font_point": 14
+  "style/comment_font_point": 12
   "style/label_format": "%s."
   "style/mark_text": ""
   "style/ascii_tip_follow_cursor": true
